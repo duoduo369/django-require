@@ -106,6 +106,7 @@ class OptimizedFilesMixin(object):
                     dir = env.build_dir,
                     appDir = env.compile_dir,
                     baseUrl = require_settings.REQUIRE_BASE_URL,
+                    optimize = "none",
                 )
             # Compile standalone modules.
             if require_settings.REQUIRE_STANDALONE_MODULES:
